@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Oranienbaum" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet">
-
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
   </head>
-<body>
+<body onload="LoadBingoArray()">
   <header>
     <nav class="navbar navbar-default">
       <div class="container-fluid">
@@ -36,17 +36,13 @@
   </header>
  <div id="main-content" class="container-fluid">
  	<div id="hat">
- 		<img src="images/hat200px.png" alt="image of a hat" class="img-responsive visible-xs">
- 		<img src="images/hat200px.png" alt="image of a hat" class="img-responsive visible-sm img-responsive visible-sm">
- 		<img src="images/hat300px.png" alt="image of a hat" class="img-responsive visible-md">
- 		<img src="images/hat300px.png" alt="image of a hat" class="img-responsive visible-lg">
+ 		<img src="images/hat200px.png" alt="image of a hat" class="img-responsive visible-xs visible-sm">
+ 		<img src="images/hat300px.png" alt="image of a hat" class="img-responsive visible-md visible-lg">
  	</div>
  	<div id="mo">
  	<!-- use an onclick function here-->
- 		<img src="images/moClickTheMo300px.png" alt="image of a mustache" class="img-responsive visible-xs">
- 		<img src="images/moClickTheMo300px.png" alt="image of a mustache" class="img-responsive visible-sm">
- 		<img src="images/moClickTheMo400px.png" alt="image of a mustache" class="img-responsive visible-md">
- 		<img src="images/moClickTheMo400px.png" alt="image of a mustache" class="img-responsive visible-lg">
+ 		<img src="images/moClickTheMo300px.png" alt="image of a mustache" class="img-responsive visible-xs visible-sm" onclick="PropBinNum()">
+ 		<img src="images/moClickTheMo400px.png" alt="image of a mustache" class="img-responsive visible-md visible-lg" onclick="PropBinNum()">
  	</div>
  	<div id="white-square"></div>
 

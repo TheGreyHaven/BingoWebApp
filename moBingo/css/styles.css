@@ -142,15 +142,19 @@ div#mo img{
 }
 
 
-
-
-
 #white-square {
-    color: transparent;
-    border: #ffffff 3px solid;
+    font-family: 'Sanchez', serif;
+    font-size: 500%;
+    line-height: 100%;
+    text-align: center;
+    color: #000;
+    border: #fff 3px solid;
+    background-color: #fff;
+    text-shadow: 2px 2px #D9D8C8;
     position: absolute;
     top: 0%;
     left: 50%;
+    /*box-shadow: 1px 1px 1px #888888;*/
 }
 
 
@@ -234,6 +238,8 @@ div#mo img{
   }
 
   #white-square {
+    font-size: 320%;
+    line-height: 105%;
     height: 100px;
     width: 100px;
     margin-right: -50%;
@@ -263,6 +269,8 @@ div#mo img{
   }
 
   #white-square {
+    font-size: 320%;
+    line-height: 105%;
     height: 100px;
     width: 100px;
     margin-right: -50%;
@@ -324,4 +332,5 @@ div#mo img{
   }
 }
 
+/*img:hover {*/
 
