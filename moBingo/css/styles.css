@@ -141,6 +141,11 @@ div#mo img{
     transform: translate(-49%, -6%);
 }
 
+div#mo img:hover {
+    opacity: .75;
+    filter: alpha(opacity=100);
+}
+/*do a hover transparency on #mo*/
 
 #white-square {
     font-family: 'Sanchez', serif;
@@ -230,11 +235,11 @@ div#mo img{
   /* main content */
 
   div#hat img {
-    transform: translate(-50%, 16%);
+    transform: translate(-50%, -10%);
   }
 
   div#mo img {
-    transform: translate(-49%, -3%);
+    transform: translate(-49%, 140%);
   }
 
   #white-square {
@@ -243,7 +248,7 @@ div#mo img{
     height: 100px;
     width: 100px;
     margin-right: -50%;
-    transform: translate(-50%, 290%);
+    transform: translate(-47%, 300%);
    
   }
 }
@@ -264,8 +269,12 @@ div#mo img{
   }
 
   /* main content */
+  div#hat img {
+    transform: translate(-120%, -8%);
+  }
+
   div#mo img {
-    transform: translate(-49%, -8%);
+    transform: translate(-120%, 140%);
   }
 
   #white-square {
@@ -274,7 +283,7 @@ div#mo img{
     height: 100px;
     width: 100px;
     margin-right: -50%;
-    transform: translate(-50%, 265%);
+    transform: translate(-260%, 300%);
   }
 }
 
@@ -289,20 +298,21 @@ div#mo img{
 
   /* main content */
   div#hat img {
-    transform: translate(-50%, 5%);
+    transform: translate(-120%, -8%);
   }
 
   div#mo img {
-    transform: translate(-50%, -3%);
+    transform: translate(-132%, 122%);
+    width: 350px;
   }
 
   #white-square {
-    border: #fff 4px solid;
-    height: 150px;
-    width: 150px;
+    font-size: 390%;
+    line-height: 105%;
+    height: 120px;
+    width: 120px;
     margin-right: -50%;
-    transform: translate(-52%, 260%);
-    
+    transform: translate(-287%, 270%);
   }
 }
 
@@ -317,20 +327,47 @@ div#mo img{
 
   /* main content */
   div#hat img {
-    transform: translate(-50%, 5%);
+    transform: translate(-120%, -8%);
   }
 
   div#mo img {
-    transform: translate(-50%, -3%);
+    transform: translate(-132%, 122%);
+    width: 350px;
   }
+
   #white-square {
-    border: #fff 4px solid;
-    height: 150px;
-    width: 150px;
+    font-size: 390%;
+    line-height: 105%;
+    height: 120px;
+    width: 120px;
     margin-right: -50%;
-    transform: translate(-52%, 250%); 
+    transform: translate(-287%, 270%);
+  }
+
+
+  @keyframes shake {
+    0% {
+      transform: translate(-132%, 122%);
+    }
+    25% {
+      transform: translate(-130%, 124%);
+    }
+    50% {
+      transform: translate(-132%, 122%);
+    }
+    75% {
+      transform: translate(-130%, 120%);
+    }
+    100% {
+      transform: translate(-132%, 122%);
+    }
+  }
+  div#mo img:hover {
+    animation-name: shake;
+    animation-duration: .4s;
+    animation-delay: .5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
   }
 }
-
-/*img:hover {*/
-

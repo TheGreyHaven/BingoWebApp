@@ -24,8 +24,11 @@ function PropBinNum() {
 	} else {
 		disNum = "The" + "<br>" + "End";
 		document.getElementById("white-square").innerHTML = disNum;
+		document.getElementById("newGame").innerHTML = "New Game?";
 	}
-	
 }
 
+function Refresh() {
+	window.location="index.html";
+}
 // setTimeout(function(){ alert("Hello"); }, 4000);
