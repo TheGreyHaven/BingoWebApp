@@ -41,7 +41,7 @@ a.nav-brand {
   font-color: #fff;
 }
 
-ul {
+ul#navList {
   font-size: 110%;
   font-family: 'Sanchez', serif;
   padding: 35px 5% 5% 5%;
@@ -163,9 +163,18 @@ div#mo img:hover {
 }
 #bingoCard {
   position: absolute;
-  right: -50%;
-  top: 10%;
+  font-size: 140%;
+  color: #fff;
+  left: 60%;
 }
+
+ul#bingoNumbers li{
+  list-style-type: none;
+  font-family: 'Sanchez', serif;
+  width: 20%;
+  padding-top: 10px;
+}
+
 
 #bNum, #iNum, #nNum, #gNum, #oNum {
   white-space: pre;

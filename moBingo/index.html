@@ -23,7 +23,7 @@
           <a class="navbar-brand" href="index.html">Mo'BINGO</a>
         </div>
         <div class="collapse navbar-collapse" id="myLinks">
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right" id="navList">
             <li id="about"><a href="about.html">ABOUT</a></li>
             <li id="donate"><a href="https://us.movember.com/" target="_blank">DONATE</a></li>
             <li id="ms-bingo" class="text-center"><a href="..msBingo/index.html">MS'BINGO</a></li>
@@ -46,23 +46,14 @@
  	</div>
  	<div id="white-square"></div>
   <!-- bingo card -->
-  <div class="container" id="bingoCard">
-    <div class="row">
-      <ul>
-        <li class="B col-lg-1">B</li>
-        <li class="I col-lg-1">I</li>
-        <li class="N col-lg-1">N</li>
-        <li class="G col-lg-1">G</li>
-        <li class="O col-lg-1">O</li>
-      </ul>
-    </div>
-    <div class="row" id="row1">
-      <ul>
-        <li id="bNum" class="col-lg-1"></li>
-        <li id="iNum" class="col-lg-1"></li>
-        <li id="nNum" class="col-lg-1"></li>
-        <li id="gNum" class="col-lg-1"></li>
-        <li id="oNum" class="col-lg-1"></li>
+  <div id="bingoCard">
+    <div class="row" id="numberRow">
+      <ul id="bingoNumbers">
+        <li id="bNum" class="col-lg-2 col-md-2 col-sm-2 visible-sm visible-md visible-lg"></li>
+        <li id="iNum" class="col-lg-2 col-md-2 col-sm-2 visible-sm visible-md visible-lg"></li>
+        <li id="nNum" class="col-lg-2 col-md-2 col-sm-2 visible-sm visible-md visible-lg"></li>
+        <li id="gNum" class="col-lg-2 col-md-2 col-sm-2 visible-sm visible-md visible-lg"></li>
+        <li id="oNum" class="col-lg-2 col-md-2 col-sm-2 visible-sm visible-md visible-lg"></li>
       </ul>
     </div>
   </div><!--.container-->
