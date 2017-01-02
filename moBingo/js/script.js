@@ -34,23 +34,46 @@ function PropBinNum() {
 // function Refresh() {
 // 	window.location="index.html";
 // }
-
-
-
+var colB = [];
+var colI = [];
+var colN = [];
+var colG = [];
+var colO = [];
 function BingoCard(disNum){
 	var cardNum = disNum.slice(5);
 	console.log(cardNum);
 	if (cardNum <= 15) {
-    	document.getElementById("bNum").innerHTML = cardNum;
+    	colB.push(cardNum);
+    	colB.sort(function(a,b){
+    	return a - b;
+		})
+    	document.getElementById("bNum").textContent = colB.join('\n');
   	}else if (cardNum > 15 && cardNum <= 30) {
-		document.getElementById("iNum").innerHTML = cardNum;
+		colI.push(cardNum);
+		colI.sort(function(a,b){
+    	return a - b;
+		})
+		document.getElementById("iNum").textContent = colI.join('\n');
 	} else if (cardNum > 30 && cardNum <= 45) {
-		document.getElementById("nNum").innerHTML = cardNum;
+		colN.push(cardNum);
+		colN.sort(function(a,b){
+    	return a - b;
+		})
+		document.getElementById("nNum").textContent = colN.join('\n');
 	} else if (cardNum > 45 && cardNum <=60) {
-		document.getElementById("gNum").innerHTML = cardNum;
+		colG.push(cardNum);
+		colG.sort(function(a,b){
+    	return a - b;
+		})
+		document.getElementById("gNum").textContent = colG.join('\n');
 	} else if (cardNum > 60 && cardNum <=75) {
-		document.getElementById("oNum").innerHTML = cardNum;
+		colO.push(cardNum);
+		colO.sort(function(a,b){
+    	return a - b;
+		})
+		document.getElementById("oNum").textContent = colO.join('\n');
 	}
 }
+
 
 // setTimeout(function(){ alert("Hello"); }, 4000);

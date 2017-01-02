@@ -167,6 +167,9 @@ div#mo img:hover {
   top: 10%;
 }
 
+#bNum, #iNum, #nNum, #gNum, #oNum {
+  white-space: pre;
+}
 
 
 /* xxs */
