@@ -80,7 +80,7 @@ ul {
   border: none;
 }
 
-.nav>li {
+li {
   margin: 0px 10px;
 }
 
@@ -160,11 +160,6 @@ div#mo img:hover {
     top: 0%;
     left: 50%;
     /*box-shadow: 1px 1px 1px #888888;*/
-}
-#bingoCard {
-  position: absolute;
-  right: -50%;
-  top: 10%;
 }
 
 
@@ -350,7 +345,7 @@ div#mo img:hover {
   }
 
 
- /* @keyframes shake {
+  @keyframes shake {
     0% {
       transform: translate(-132%, 122%);
     }
@@ -374,5 +369,5 @@ div#mo img:hover {
     animation-iteration-count: infinite;
     animation-direction: alternate;
 
-  }*/
+  }
 }

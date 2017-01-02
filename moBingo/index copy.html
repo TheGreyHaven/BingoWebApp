@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mo'Bingo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Oranienbaum" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  </head>
+<body onload="LoadBingoArray()">
+  <header>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myLinks" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="glyphicon glyphicon-option-vertical"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Mo'BINGO</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myLinks">
+          <ul class="nav navbar-nav navbar-right">
+            <li id="about"><a href="about.html">ABOUT</a></li>
+            <li id="donate"><a href="https://us.movember.com/" target="_blank">DONATE</a></li>
+            <li id="ms-bingo" class="text-center"><a href="..msBingo/index.html">MS'BINGO</a></li>
+            <!--I want to use onclick and onMouseOver below so that when I click or mouseover ms'bingo the arrow is also highlighted and vise versa-->
+            <li id="arrow" class="visible-sm visible-md visible-lg"><a href="..msBingo/index.html" class="glyphicon glyphicon-arrow-right"></a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+  </header>
+ <div id="main-content" class="container-fluid">
+ 	<div id="hat">
+ 		<img src="images/hat300px.png" alt="image of a hat" class="img-responsive visible-xs visible-sm">
+ 		<img src="images/hat400px.png" alt="image of a hat" class="img-responsive visible-md visible-lg">
+ 	</div>
+ 	<div id="mo">
+ 	<!-- use an onclick function here-->
+ 		<img src="images/moClickTheMo300px.png" alt="image of a mustache" class="img-responsive visible-xs visible-sm" onclick="PropBinNum()">
+ 		<img src="images/moClickTheMo500px.png" alt="image of a mustache" class="img-responsive visible-md visible-lg" onclick="PropBinNum()">
+ 	</div>
+ 	<div id="white-square"></div>
+  <div id="newGame" onclick="Refresh()"></div>
+  
+
+
+ </div><!--#main-content-->
+</body>
+    
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
