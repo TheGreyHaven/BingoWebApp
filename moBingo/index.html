@@ -34,30 +34,35 @@
       </div><!-- /.container -->
     </nav>
   </header>
- <div id="main-content" class="container-fluid">
- 	<div id="hat">
- 		<img src="images/hat300px.png" alt="image of a hat" class="img-responsive visible-xs visible-sm">
- 		<img src="images/hat400px.png" alt="image of a hat" class="img-responsive visible-md visible-lg">
- 	</div>
- 	<div id="mo">
- 	<!-- use an onclick function here-->
- 		<img src="images/moClickTheMo300px.png" alt="image of a mustache" class="img-responsive visible-xs visible-sm" onclick="PropBinNum()">
- 		<img src="images/moClickTheMo500px.png" alt="image of a mustache" class="img-responsive visible-md visible-lg" onclick="PropBinNum()">
- 	</div>
- 	<div id="white-square"></div>
+ <div id="main-content">
+    <div id="imageRow" class="row">
+     	<div id="hat">
+     		<img src="images/hat400px.png" id="hatImage" alt="image of a hat" class="img-responsive visible-xs">
+        <img src="images/hat500px.png" id="hatImage" alt="image of a hat" class="img-responsive visible-sm visible-md visible-lg">
+     	</div>
+    </div>
+    <div class="row">
+     	<div id="mo">
+     		<img src="images/moClickTheMo400px.png" id="moImage" alt="image of a mustache"onclick="PropBinNum()" class="img-responsive visible-xs">
+        <img src="images/moClickTheMo500px.png" id="moImage" alt="image of a mustache"onclick="PropBinNum()" class="img-responsive visible-sm visible-md visible-lg">
+      </div>
+    </div>
+    <div class="row">
+      <div id="square-div">
+        <div id="white-square"></div>
+      </div>
+    </div>
+  </div>
   <!-- bingo card -->
-  <div id="bingoCard">
     <div class="row" id="numberRow">
       <ul id="bingoNumbers">
-        <li id="bNum" class="col-lg-2 col-md-2 col-sm-2 visible-sm visible-md visible-lg"></li>
-        <li id="iNum" class="col-lg-2 col-md-2 col-sm-2 visible-sm visible-md visible-lg"></li>
-        <li id="nNum" class="col-lg-2 col-md-2 col-sm-2 visible-sm visible-md visible-lg"></li>
-        <li id="gNum" class="col-lg-2 col-md-2 col-sm-2 visible-sm visible-md visible-lg"></li>
-        <li id="oNum" class="col-lg-2 col-md-2 col-sm-2 visible-sm visible-md visible-lg"></li>
+        <li id="bNum" class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></li>
+        <li id="iNum" class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></li>
+        <li id="nNum" class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></li>
+        <li id="gNum" class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></li>
+        <li id="oNum" class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></li>
       </ul>
     </div>
-  </div><!--.container-->
- </div><!--#main-content-->
 </body>
     
 

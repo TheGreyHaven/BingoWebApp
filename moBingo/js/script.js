@@ -34,6 +34,8 @@ function PropBinNum() {
 // function Refresh() {
 // 	window.location="index.html";
 // }
+
+
 var colB = [];
 var colI = [];
 var colN = [];

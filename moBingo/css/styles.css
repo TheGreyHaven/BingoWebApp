@@ -118,61 +118,32 @@ button {
 
 /* main content */
 
-div#main-content {
-  position: relative;
-  
-}
-
-div#hat img{
-  position: absolute;
-    top: 8%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, 0%);
-}
-
-
-
-div#mo img{
-  position: absolute;
-    top: 0%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-49%, -6%);
-}
 
 div#mo img:hover {
     opacity: .75;
     filter: alpha(opacity=100);
 }
-/*do a hover transparency on #mo*/
 
-#white-square {
-    font-family: 'Sanchez', serif;
-    font-size: 500%;
-    line-height: 100%;
+ 
+div#white-square {
+  font-family: 'Sanchez', serif;
     text-align: center;
     color: #000;
-    border: #fff 3px solid;
+    border: #fff 2px solid;
     background-color: #fff;
     text-shadow: 2px 2px #D9D8C8;
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    /*box-shadow: 1px 1px 1px #888888;*/
-}
-#bingoCard {
-  position: absolute;
-  font-size: 140%;
-  color: #fff;
-  left: 60%;
+    width: 100%;
+    margin: 0 auto;
+    }
+
+#hatImage, #moImage {
+  width: 100%;
+  margin: 0 auto;
 }
 
 ul#bingoNumbers li{
   list-style-type: none;
   font-family: 'Sanchez', serif;
-  width: 20%;
-  padding-top: 10px;
 }
 
 
@@ -180,6 +151,11 @@ ul#bingoNumbers li{
   white-space: pre;
 }
 
+#numberRow {
+  width: 100%;
+  margin: 0 auto;
+  color: #fff;
+}
 
 /* xxs */
 @media (max-width: 321px) {
@@ -250,24 +226,24 @@ ul#bingoNumbers li{
   }
 
   /* main content */
-
-  div#hat img {
-    transform: translate(-50%, -10%);
-  }
-
-  div#mo img {
-    transform: translate(-49%, 140%);
-  }
-
-  #white-square {
-    font-size: 320%;
-    line-height: 105%;
-    height: 100px;
+  div#white-square {
+    font-size: 340%;
+    line-height: 100%;
     width: 100px;
-    margin-right: -50%;
-    transform: translate(-47%, 300%);
-   
+    height: 100px;
+    max-width: 100px;
+    }
+
+  #hatImage, #moImage {
+    max-width: 270px;
   }
+
+  #numberRow {
+  max-width: 290px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+  
 }
 
 
@@ -286,22 +262,33 @@ ul#bingoNumbers li{
   }
 
   /* main content */
-  div#hat img {
-    transform: translate(-120%, -8%);
+  #main-content {
+    position: absolute;
+    left: 10%;
   }
 
-  div#mo img {
-    transform: translate(-120%, 140%);
+  div#white-square {
+    font-size: 420%;
+    line-height: 100%;
+    width: 120px;
+    height: 120px;
+    max-width: 120px;
+    }
+
+  #hatImage, #moImage {
+    max-width: 320px;
   }
 
-  #white-square {
-    font-size: 320%;
-    line-height: 105%;
-    height: 100px;
-    width: 100px;
-    margin-right: -50%;
-    transform: translate(-260%, 300%);
+  #numberRow {
+  max-width: 350px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  right: 4%;
+  top: 20%;
+  font-size: 110%;
   }
+ 
 }
 
 /* md 992-1199 */
@@ -314,23 +301,34 @@ ul#bingoNumbers li{
   }
 
   /* main content */
-  div#hat img {
-    transform: translate(-120%, -8%);
+
+  #main-content {
+    position: absolute;
+    left: 10%;
   }
 
-  div#mo img {
-    transform: translate(-132%, 122%);
-    width: 350px;
+  div#white-square {
+    font-size: 490%;
+    line-height: 100%;
+    width: 140px;
+    height: 140px;
+    max-width: 140px;
+    }
+
+  #hatImage, #moImage {
+    max-width: 420px;
   }
 
-  #white-square {
-    font-size: 390%;
-    line-height: 105%;
-    height: 120px;
-    width: 120px;
-    margin-right: -50%;
-    transform: translate(-287%, 270%);
+  #numberRow {
+  max-width: 420px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  right: 5%;
+  top: 25%;
+  font-size: 130%;
   }
+  
 }
 
 /* lg 1200 and more */
@@ -343,23 +341,34 @@ ul#bingoNumbers li{
   }
 
   /* main content */
-  div#hat img {
-    transform: translate(-120%, -8%);
+  #main-content {
+    position: absolute;
+    left: 20%;
   }
 
-  div#mo img {
-    transform: translate(-132%, 122%);
-    width: 350px;
+  div#white-square {
+    font-size: 490%;
+    line-height: 100%;
+    width: 140px;
+    height: 140px;
+    max-width: 140px;
+    }
+
+  #hatImage, #moImage {
+    max-width: 420px;
   }
 
-  #white-square {
-    font-size: 390%;
-    line-height: 105%;
-    height: 120px;
-    width: 120px;
-    margin-right: -50%;
-    transform: translate(-287%, 270%);
+  #numberRow {
+  max-width: 420px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  right: 12%;
+  top: 25%;
+  font-size: 130%;
   }
+
+}
 
 
  /* @keyframes shake {
