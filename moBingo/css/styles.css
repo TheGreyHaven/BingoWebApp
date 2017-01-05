@@ -1,7 +1,7 @@
 body {
-	background-color: #d9d8c8;
-	margin: 0;
-	padding: 0;
+  background-color: #d9d8c8;
+  margin: 0;
+  padding: 0;
 }
 
 /*Header*/ 
@@ -394,6 +394,5 @@ ul#bingoNumbers li{
     animation-delay: .5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-
   }*/
 }
