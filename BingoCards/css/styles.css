@@ -98,9 +98,10 @@ div.container div.row div {
 	margin-top: 40px;
 	box-shadow: 3px 3px 5px #b0ac9f;
 	color: #000;
-	font-family: 'Abril Fatface', cursive;
+	font-family: 'Oranienbaum', serif;
 	text-align: center;
 	font-size: 11vw;
+	margin-top: 0px;
 }
 #card span{
 	width: 100%;
@@ -170,17 +171,55 @@ div.container div.row div {
   .navbar-brand {
   	font-size: 500%;
   }
-
+  /*main-content*/
+  #card {
+  	max-width: 60%;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+  div.container div.row div {
+  	height: 10vw;
+  }
 }
 
 /* md 992-1199 */
 @media (min-width: 992px) and (max-width: 1199px) {
+   /*main-content*/
+  #card {
+  	max-width: 60%;
+  	margin-left: auto;
+  	margin-right: auto;
+  	font-size: 7vw;
+  }
+  div.container div.row div {
+  	height: 10vw;
+  	font-size: 5vw;
+  }
   
+  #card span{
+	width: 60%;
+	margin: 0vw 2.5vw 0vw 2.5vw;
+	}
 }
 
 /* lg 1200 and more */
 @media (min-width: 1200px) {
+   /*main-content*/
+  #card {
+  	max-width: 60%;
+  	margin-left: auto;
+  	margin-right: auto;
+  	font-size: 7vw;
+  }
+  div.container div.row div {
+  	height: 10vw;
+  	font-size: 5vw;
+  }
   
+  #card span{
+	width: 60%;
+	margin: 0vw 2.5vw 0vw 2.5vw;
+	}
 }
 
 
