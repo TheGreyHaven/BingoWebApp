@@ -44,12 +44,30 @@ function CardNumGen() {
 			})
  		}
 	}
-	
- console.log(bNums);
- console.log(iNums);
- console.log(nNums);
- console.log(gNums);
- console.log(oNums);
+	document.getElementById("b1").innerHTML = bNums.slice(0,1);
+	document.getElementById("b2").innerHTML = bNums.slice(1,2);
+	document.getElementById("b3").innerHTML = bNums.slice(2,3);
+	document.getElementById("b4").innerHTML = bNums.slice(3,4);
+	document.getElementById("b5").innerHTML = bNums.slice(4,5);
+	document.getElementById("i1").innerHTML = iNums.slice(0,1);
+	document.getElementById("i2").innerHTML = iNums.slice(1,2);
+	document.getElementById("i3").innerHTML = iNums.slice(2,3);
+	document.getElementById("i4").innerHTML = iNums.slice(3,4);
+	document.getElementById("i5").innerHTML = iNums.slice(4,5);
+	document.getElementById("n1").innerHTML = nNums.slice(0,1);
+	document.getElementById("n2").innerHTML = nNums.slice(1,2);
+	document.getElementById("n4").innerHTML = nNums.slice(2,3);
+	document.getElementById("n5").innerHTML = nNums.slice(3,4);
+	document.getElementById("g1").innerHTML = gNums.slice(0,1);
+	document.getElementById("g2").innerHTML = gNums.slice(1,2);
+	document.getElementById("g3").innerHTML = gNums.slice(2,3);
+	document.getElementById("g4").innerHTML = gNums.slice(3,4);
+	document.getElementById("g5").innerHTML = gNums.slice(4,5);
+	document.getElementById("o1").innerHTML = oNums.slice(0,1);
+	document.getElementById("o2").innerHTML = oNums.slice(1,2);
+	document.getElementById("o3").innerHTML = oNums.slice(2,3);
+	document.getElementById("o4").innerHTML = oNums.slice(3,4);
+	document.getElementById("o5").innerHTML = oNums.slice(4,5);
 }
 CardNumGen();
 
