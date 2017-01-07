@@ -108,6 +108,9 @@ function RedCircleN1() {
 function RedCircleN2() { 
 	document.getElementById("n2").className += " circle";
 }
+function RedCircleN3() { 
+	document.getElementById("n3").className += " circle";
+}
 function RedCircleN4() { 
 	document.getElementById("n4").className += " circle";
 }

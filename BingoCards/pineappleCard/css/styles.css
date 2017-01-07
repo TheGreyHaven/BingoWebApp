@@ -1,6 +1,5 @@
 body {
-	background-color: #f2c1cd;
-	background-color: #d9d8c8;
+	background-color: #f9ea95;
 	margin: 0;
 	padding: 0;
 }
@@ -43,7 +42,7 @@ ul#navList {
 }
 
 #myLinks a:hover { 
-  color: #bdbdb9;
+  color: #f4c962;
   text-decoration: none;
 }
 
@@ -82,7 +81,7 @@ button {
 }
 /*main content*/
 .circle {
-	background: #bdbdb9;
+	background: #f4c962;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
@@ -98,11 +97,11 @@ div.container div.row div {
 }
 
 #card {
-	border: 1px solid #b0ac9f;
+	border: 1px solid #f4c962;
 	padding-top: 5%;
 	padding-bottom: 5%;
 	margin-top: 40px;
-	box-shadow: 3px 3px 5px #b0ac9f;
+	box-shadow: 3px 3px 5px #f4c962;
 	color: #000;
 	font-family: 'Oranienbaum', serif;
 	text-align: center;
@@ -114,8 +113,8 @@ div.container div.row div {
 	margin: 0vw 5vw 0vw 5vw;
 }
 
-#mo {
-	width: 100%;
+#pineappleImg {
+	height: 90%;
 }
 
 
@@ -145,7 +144,7 @@ div.container div.row div {
   
   }
   #myLinks a:hover { 
-  color: #bdbdb9;
+  color: #f4c962;
   text-decoration: none;
   }
   .navbar-default .navbar-toggle:hover {
@@ -156,7 +155,7 @@ div.container div.row div {
   }
 
   .navbar-toggle:hover {
-  	color: #bdbdb9;
+  	color: #f4c962;
   }
   ul#navList {
     font-size: 105%;
