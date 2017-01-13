@@ -89,29 +89,8 @@ ul#navList {
   color: #fff;
   margin: 0px -22px;
 }
-/*add to ms bingo*/
-.bCards {
-  background-color: transparent;
-  border: none;
-  margin: 5px 0px;
-  color: #fff;
-  font-size: 110%;
-}
 
-.bCards:hover {
-  background-color: transparent;
-  color: #bdbdb9;
-}
 
-.dropdown-menu {
-  background-color: #bdbdb9;
-  border: none;
-  box-shadow: none;
-  text-align: right;
-  border-radius: 0;
-}
-
-/*stop*/
 button {
   background-color: transparent;
   border: none;
@@ -227,13 +206,12 @@ ul#bingoNumbers li{
   text-decoration: none;
   }
 
-  /*add to ms bingo page*/
-  #ms-bingo a:link {
+   #ms-bingo a:link {
     border: none;
     margin: 0px 0px 0px 0px;
     border-top: 2px #fff solid;
   }
- /* stop*/
+
   ul.navbar-right {
     padding-right: 0px;
   }
@@ -242,7 +220,7 @@ ul#bingoNumbers li{
     padding-top: 0px;
   }
   #bCards a:link {
-    border-top: 2px #fff solid;
+    border-top: none;
   }
   .navbar-default .navbar-toggle:hover {
     background-color: transparent;
