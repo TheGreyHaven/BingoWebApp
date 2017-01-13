@@ -1,0 +1,239 @@
+body {
+	background-color: #c0bfed;
+	margin: 0;
+	padding: 0;
+}
+
+/*heading*/
+.navbar {
+  border: none;
+}
+.navbar-nav {
+  background-color: transparent;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: #fff;
+  background-color: transparent;
+}
+
+.navbar-brand {
+  float: left;
+  font-family: 'Parisienne', cursive;
+  font-size: 400%;
+  line-height: 140%;
+}
+a.nav-brand {
+  font-color: #fff;
+  background-color: transparent;
+}
+ul#navList {
+  font-size: 120%;
+  font-family: 'Life Savers', cursive;
+  margin-top: 10px;
+  padding: 20px 2% 2% 2%;
+}
+
+#myLinks a:link, #myLinks a:visited {
+  color: #fff;
+}
+
+#myLinks a:hover { 
+  color: #8392d3;
+  text-decoration: none;
+}
+
+
+#title a:hover, #title a:focus {
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  color: #fff;
+  font-size: 110%;
+  font-family: 'Life Savers', cursive;
+  position: absolute;
+  top: 8px;
+  line-height: 98%;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    background-color: transparent;
+    background-image: none;
+    padding-top: 10px;
+
+}
+
+.navbar-default .navbar-toggle {
+    border-radius: 0;
+    border: 2px solid #fff; 
+    background-color: transparent;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+/*main content*/
+.circle {
+	background: #acbaf3;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+div.container div.row div {
+	height: 17vw;
+	border: 1px solid #fff;
+	font-size: 8vw;
+	text-align: center;
+	color: #000;
+	font-family: 'Dancing Script', cursive;
+	line-height: 200%;
+}
+
+#card {
+	border: 1px solid #acbaf3;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin-top: 40px;
+	box-shadow: 3px 3px 5px #8392d3;
+	color: #000;
+	font-family: 'Purple Purse', cursive;
+	text-align: center;
+	font-size: 10vw;
+	margin-top: 0px;
+}
+#card span{
+	width: 100%;
+	margin: 0vw 5vw 0vw 5vw;
+  text-shadow: 2px 2px #fff;
+}
+
+#martiniImg {
+	width: 100%;
+  height: 95%;
+  margin-bottom: 7%;
+  }
+
+
+#n3 {
+	padding-right: 2px;
+	padding-left: 2px;
+  
+}
+.youWin {
+  font-size: 150%;
+  color: #fff;
+}
+
+/* xs 767px and below */
+@media (max-width: 767px){
+	/* header */
+
+  .navbar-brand {
+  	font-size: 290%;
+  }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+  }
+
+  #myLinks a:link, #myLinks a:visited {
+  color: #fff;
+  background-color: transparent;
+  border-bottom: 2px #fff solid;
+  
+  }
+  #myLinks a:hover { 
+  color: #8392d3;
+  text-decoration: none;
+  }
+  .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+  }
+  .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+  }
+
+  .navbar-toggle:hover {
+  	color: #8392d3;
+  }
+  ul#navList {
+    font-size: 110%;
+    font-family: 'Life Savers', cursive;
+    padding: 0px 2% 2% 2%;
+    margin-top: none;
+  }
+
+
+  /* main content */
+}
+
+}
+
+
+/* sm 768-991 */
+
+@media (min-width: 768px) and (max-width: 991px) {
+	/* header */
+  .navbar-brand {
+  	font-size: 500%;
+  }
+  /*main-content*/
+  #card {
+  	max-width: 60%;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+  div.container div.row div {
+  	height: 10vw;
+  }
+}
+
+/* md 992-1199 */
+@media (min-width: 992px) and (max-width: 1199px) {
+   /*main-content*/
+  #card {
+  	max-width: 60%;
+  	margin-left: auto;
+  	margin-right: auto;
+  	font-size: 7vw;
+  }
+  div.container div.row div {
+  	height: 10vw;
+  	font-size: 5vw;
+  }
+  
+  #card span{
+	width: 60%;
+	margin: 0vw 2.5vw 0vw 2.5vw;
+	}
+}
+
+/* lg 1200 and more */
+@media (min-width: 1200px) {
+   /*main-content*/
+  #card {
+  	max-width: 60%;
+  	margin-left: auto;
+  	margin-right: auto;
+  	font-size: 7vw;
+  }
+  div.container div.row div {
+  	height: 10vw;
+  	font-size: 5vw;
+  }
+  
+  #card span{
+	width: 60%;
+	margin: 0vw 2.5vw 0vw 2.5vw;
+	}
+}
+
+

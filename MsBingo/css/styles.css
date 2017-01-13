@@ -1,13 +1,12 @@
 body {
-  background-color: #d9d8c8;
+  background-color: #f2c1cd;
   margin: 0;
   padding: 0;
-  color: #fff;
 }
 
 /*Header*/ 
 .container-fluid {
-  background-color: #d9d8c8;
+  background-color: #f2c1cd;
 }
 
 .navbar {
@@ -15,7 +14,7 @@ body {
 }
 
 .navbar-nav {
-  background-color: #d9d8c8;
+  background-color: transparent;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
@@ -33,7 +32,7 @@ body {
 
 .navbar-brand {
   float: left;
-  font-family: 'Oranienbaum', serif;
+  font-family: 'Parisienne', cursive;
   font-size: 400%;
   line-height: 140%;
 }
@@ -44,7 +43,7 @@ a.nav-brand {
 
 ul#navList {
   font-size: 110%;
-  font-family: 'Sanchez', serif;
+  font-family: 'Life Savers', cursive;
   padding: 35px 5% 5% 5%;
 }
 
@@ -54,7 +53,7 @@ ul#navList {
 }
 
 #myLinks a:hover { 
-  color: #bdbdb9;
+  color: #d88d9f;
   text-decoration: none;
 }
 
@@ -63,13 +62,13 @@ ul#navList {
 }
 
 #donate a:link, #donate a:visited {
-  color: #c8a08b;
+  color: #d88d9f;
   background-color: #fff;
   padding: 12px;
 }
 
 #donate a:hover {
-  color: #bdbdb9;
+  color: #f2c1cd;
 }
 
 #ms-bingo a:link {
@@ -89,7 +88,7 @@ ul#navList {
   color: #fff;
   margin: 0px -22px;
 }
-/*add to ms bingo*/
+
 .bCards {
   background-color: transparent;
   border: none;
@@ -100,18 +99,17 @@ ul#navList {
 
 .bCards:hover {
   background-color: transparent;
-  color: #bdbdb9;
+  color: #d88d9f;
 }
 
 .dropdown-menu {
-  background-color: #bdbdb9;
+  background-color: #d88d9f;
   border: none;
   box-shadow: none;
   text-align: right;
   border-radius: 0;
 }
 
-/*stop*/
 button {
   background-color: transparent;
   border: none;
@@ -149,14 +147,17 @@ div#mo img:hover {
 
  
 div#white-square {
-  font-family: 'Sanchez', serif;
+  font-family: 'Life Savers', cursive;
     text-align: center;
     color: #000;
     border: #fff 2px solid;
     background-color: #fff;
-    text-shadow: 2px 2px #D9D8C8;
+    text-shadow: 2px 2px #f2c1cd;
     width: 100%;
     margin: 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
     }
 
 #hatImage, #moImage {
@@ -166,7 +167,7 @@ div#white-square {
 
 ul#bingoNumbers li{
   list-style-type: none;
-  font-family: 'Sanchez', serif;
+  font-family: 'Life Savers', cursive;
 }
 
 
@@ -223,17 +224,14 @@ ul#bingoNumbers li{
   }
   
   #myLinks a:hover { 
-  color: #bdbdb9;
+  color: #d88d9f;
   text-decoration: none;
   }
-
-  /*add to ms bingo page*/
   #ms-bingo a:link {
     border: none;
     margin: 0px 0px 0px 0px;
     border-top: 2px #fff solid;
   }
- /* stop*/
   ul.navbar-right {
     padding-right: 0px;
   }
@@ -241,7 +239,7 @@ ul#bingoNumbers li{
     margin-top: 0px;
     padding-top: 0px;
   }
-  #bCards a:link {
+  #about a:link {
     border-top: 2px #fff solid;
   }
   .navbar-default .navbar-toggle:hover {
@@ -253,8 +251,8 @@ ul#bingoNumbers li{
 
   /* main content */
   div#white-square {
-    font-size: 340%;
-    line-height: 100%;
+    font-size: 310%;
+    line-height: 115%;
     width: 100px;
     height: 100px;
     max-width: 100px;
@@ -302,7 +300,7 @@ ul#bingoNumbers li{
     }
 
   #hatImage, #moImage {
-    max-width: 320px;
+    max-width: 250px;
   }
 
   #numberRow {
@@ -342,7 +340,7 @@ ul#bingoNumbers li{
     }
 
   #hatImage, #moImage {
-    max-width: 420px;
+    max-width: 280px;
   }
 
   #numberRow {
@@ -381,7 +379,7 @@ ul#bingoNumbers li{
     }
 
   #hatImage, #moImage {
-    max-width: 420px;
+    max-width: 320px;
   }
 
   #numberRow {

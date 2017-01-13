@@ -1,8 +1,7 @@
 body {
-  background-color: #d9d8c8;
-  margin: 0;
-  padding: 0;
-  color: #fff;
+	background-color: #d9d8c8;
+	margin: 0;
+	padding: 0;
 }
 
 /*Header*/ 
@@ -89,29 +88,7 @@ ul#navList {
   color: #fff;
   margin: 0px -22px;
 }
-/*add to ms bingo*/
-.bCards {
-  background-color: transparent;
-  border: none;
-  margin: 5px 0px;
-  color: #fff;
-  font-size: 110%;
-}
 
-.bCards:hover {
-  background-color: transparent;
-  color: #bdbdb9;
-}
-
-.dropdown-menu {
-  background-color: #bdbdb9;
-  border: none;
-  box-shadow: none;
-  text-align: right;
-  border-radius: 0;
-}
-
-/*stop*/
 button {
   background-color: transparent;
   border: none;
@@ -219,21 +196,18 @@ ul#bingoNumbers li{
   #myLinks a:link, #myLinks a:visited {
   color: #fff;
   background-color: transparent;
-  border-top: 2px #fff solid;
-  }
+  border-bottom: 2px #fff solid;
   
+  }
   #myLinks a:hover { 
   color: #bdbdb9;
   text-decoration: none;
   }
-
-  /*add to ms bingo page*/
   #ms-bingo a:link {
     border: none;
     margin: 0px 0px 0px 0px;
-    border-top: 2px #fff solid;
+    border-bottom: 2px #fff solid;
   }
- /* stop*/
   ul.navbar-right {
     padding-right: 0px;
   }
@@ -241,7 +215,7 @@ ul#bingoNumbers li{
     margin-top: 0px;
     padding-top: 0px;
   }
-  #bCards a:link {
+  #about a:link {
     border-top: 2px #fff solid;
   }
   .navbar-default .navbar-toggle:hover {
@@ -420,5 +394,6 @@ ul#bingoNumbers li{
     animation-delay: .5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+
   }*/
 }
