@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ms'Bingo</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/stylesMs.css">
     <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Life+Savers" rel="stylesheet">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
@@ -24,23 +24,10 @@
         </div>
         <div class="collapse navbar-collapse" id="myLinks">
           <ul class="nav navbar-nav navbar-right" id="navList">
-            <li>
-          <div class="dropdown">
-            <button class="dropdown-toggle bCards" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-              BINGO CARDS
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-              <li><a href="../BingoCards/MsBingoCards/originalCard/index.html">Original Card</a></li>
-              <li><a href="../BingoCards/MsBingoCards/hibiscusCard/index.html">Hibiscus Card</a></li>
-              <li><a href="../BingoCards/MsBingoCards/palmTreeCard/index.html">Palm Tree Card</a></li>
-              <li><a href="../BingoCards/MsBingoCards/pineappleCard/index.html">Pineapple Card</a></li>
-              <li><a href="../BingoCards/MsBingoCards/martiniCard/index.html">Dirty Martini Card</a></li>
-            </ul>
-          </div>
-          </li>
+            <li id="bCards"><a href="mobile/index.html">BINGO CARDS</a>
             <li id="donate"><a href="https://www.bcrfcure.org/" target="_blank">DONATE</a></li>
-            <li id="ms-bingo" class="text-center"><a href="../moBingo/index.html">M0'BINGO</a></li>
-            <li id="arrow" class="visible-sm visible-md visible-lg"><a href="../moBingo/index.html" class="glyphicon glyphicon-arrow-right"></a></li>
+            <li id="ms-bingo" class="text-center"><a href="../index.html">M0'BINGO</a></li>
+            <li id="arrow" class="visible-sm visible-md visible-lg"><a href="../index.html" class="glyphicon glyphicon-arrow-right"></a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
@@ -49,14 +36,14 @@
  <div id="main-content">
     <div id="imageRow" class="row">
       <div id="hat">
-        <img src="images/hair1400px.png" id="hatImage" alt="image of hair" class="img-responsive visible-xs">
-        <img src="images/hair1500px.png" id="hatImage" alt="image of hair" class="img-responsive visible-sm visible-md visible-lg">
+        <img src="../assets/images/hair1400px.png" id="hatImage" alt="image of hair" class="img-responsive visible-xs">
+        <img src="../assets/images/hair1500px.png" id="hatImage" alt="image of hair" class="img-responsive visible-sm visible-md visible-lg">
       </div>
     </div>
     <div class="row">
       <div id="mo">
-        <img src="images/glasses1400px.png" id="moImage" alt="image of glasses"onclick="PropBinNum()" class="img-responsive visible-xs">
-        <img src="images/glasses1500px.png" id="moImage" alt="image of glasses"onclick="PropBinNum()" class="img-responsive visible-sm visible-md visible-lg">
+        <img src="../assets/images/glasses1400px.png" id="moImage" alt="image of glasses"onclick="PropBinNum()" class="img-responsive visible-xs">
+        <img src="../assets/images/glasses1500px.png" id="moImage" alt="image of glasses"onclick="PropBinNum()" class="img-responsive visible-sm visible-md visible-lg">
       </div>
     </div>
     <div class="row">
@@ -79,9 +66,9 @@
     
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-3.1.1.min.js"></script>
-  <script src="application.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+  <script src="../assets/js/jquery-3.1.1.min.js"></script>
+  <script src="../assets/applicationMs.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/script.js"></script>
 </body>
 </html>
